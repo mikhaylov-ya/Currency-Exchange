@@ -1,2 +1,4 @@
-# react-project3
-Created with CodeSandbox
+# Currency Exchange (обмен валюты)
+
+## Конвертер
+Ввод в формате "/число/ /аббревиатура валюты/ in /аббревиатура валюты/", например 15 usd in rub.
