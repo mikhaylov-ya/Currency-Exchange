@@ -23,7 +23,7 @@ const Button = styled.button`
   width: 60%;
   align-self: center;
   background-color: palegoldenrod;
-  font: 1rem Georgia;
+  font: calc(0.3rem + 1vw) Georgia;
 `;
 
 const Input = styled.input`
