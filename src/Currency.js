@@ -17,7 +17,7 @@ const Currency = ({ value, data, onCurrChange }) => {
   const rub = Number(data.rates.RUB, 10);
   const btc = Number(data.rates.BTC, 10);
 
-  function currentValue() {
+  const CurrentValue = () => {
     if (value === "USD") {
       return (
         <>
@@ -46,7 +46,7 @@ const Currency = ({ value, data, onCurrChange }) => {
         </>
       );
     }
-  }
+  };
 
   return (
     <>
@@ -55,7 +55,7 @@ const Currency = ({ value, data, onCurrChange }) => {
         <option value="RUB">RUB</option>
         <option value="EUR">EUR</option>
       </select>
-      {currentValue()}
+      <CurrentValue />
     </>
   );
 };
